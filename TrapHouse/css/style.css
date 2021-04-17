@@ -1,0 +1,49 @@
+@font-face{
+    font-family: baldezh;
+    src:url(../font/BRUSHSCI.ttf)
+}
+html,body{
+    margin:0;
+    padding: 0;
+}
+.background{
+width: 101%;
+height:100%;
+position: fixed;
+top:0px;
+z-index:-2;
+}
+.navigation{
+    margin-left:15%;
+    margin-right:15%;
+
+}
+ul{
+    width: 0;
+    height: 0;
+}
+.navigation ul{
+    width: 0px;
+    height: 0px;
+    list-style-type: none;
+    font-family: baldezh;
+    font-size: 2vw;
+    display: inline;
+    margin: 0;
+}
+.navigation li{
+    float:left;
+    width: 20%;
+}
+.navigation a{
+    display: block;
+	background-color: #3d3d3d;
+    color:#ffffff;
+    transition:0.5s all;
+    text-align: center;
+    padding: 30px 0;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
